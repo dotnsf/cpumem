@@ -22,6 +22,8 @@ function getInfo(){
     cpus: loads,
     totalmem: os.totalmem(),
     freemem: os.freemem(),
+    uptime: os.uptime(),
+    loadavg: os.loadavg(),   //. 1, 5, and 15 min's load avg
     timestamp: ( new Date() ).getTime()
   };
   
